@@ -1,0 +1,4 @@
+node_modules
+electron-quick-start-darwin-x64
+debug.log
+www/dist
