@@ -5,11 +5,10 @@
   "author": "wangdahoo <157195705@qq.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --port=8081",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "webpack --progress  --hide-modules"
   },
   "dependencies": {
-    "node-sass": "^3.13.1",
-    "vonic": "^2.0.0-alpha.6"
+    "vonic": "^2.0.0-beta.10"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
